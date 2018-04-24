@@ -7,8 +7,15 @@ planets.forEach(element => {
     const planetSelector = document.createElement("section")
     planetSelector.textContent = element
 
-    planetEl.appendChild(planetSelector)
+    solarSection.appendChild(planetSelector)
 })
+
+planets.forEach(element => {
+    const bigBoys = planets.map(planets)
+} )
+
+        
+    
 
 
 /*
@@ -25,6 +32,8 @@ planets.forEach(element => {
 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 */
+
+
 
 
 /*
